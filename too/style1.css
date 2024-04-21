@@ -1,0 +1,119 @@
+ul li span{
+    position:relative;
+    padding: 4px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+ ul li span:hover{
+    background-color:rgb(228, 228, 228);
+    cursor: pointer;
+ }
+
+ ul li.checked{
+    color:#555;
+    text-decoration: line-through;
+    cursor: pointer;
+ }
+ ul li {
+    /* content: ''; */
+    display:flex;
+    align-items: center;
+    position:relative;
+   padding-left: 44px;
+   font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
+   margin-bottom: 24px;
+   background-color: white;
+    background-image: url('dry-clean.png');
+   border-radius: 14px;
+    background-size: 24px; 
+    background-position-y: center; 
+    background-repeat: no-repeat;
+    font-size: 22px;
+    color: rgb(22, 15, 28);
+     height: 50px;
+     left:8px;
+     width:90%;
+     padding-right: 14px;
+     justify-content: space-between;
+     background-position-x: 12px;
+}
+
+ ul li.checked {
+    content: '';
+    position: relative;
+    padding-right: 14px;
+    cursor: pointer;
+    
+    background-image: url('accept.png');
+    /* background-position: center; */
+    background-size: 24px; 
+    background-repeat: no-repeat;
+} 
+
+.mid {
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(69, 69, 69); */
+    border-radius: 14px;
+    margin-top: 0px;
+    margin-right: 26vh;
+    margin-left: 67vh;
+    padding: 47px;
+    background: linear-gradient(to bottom, #171717, #353535); 
+    /* background-color: (45deg, blue, red); */
+    /* border-image: linear-gradient(to right, rgba(162, 159, 159, 0) 0%, rgba(133, 128, 128, 0) 50%, transparent 50%, transparent 100%); */
+}
+
+input[type="text" i] {
+    /* color: aquamarine; */
+    font-size:medium;
+    width:52%;
+    height: 28px;
+    border-radius: 22px;
+    padding-left: 16px;
+}
+input[type="button" i]{
+    border-radius: 14px;
+    width:12vh;
+   background-color: #cbcbca;
+}
+input[type="button" i]:hover{
+    background-color:rgb(74, 248, 74);
+    color:white;
+    border-radius: 14px;
+}
+
+.additem{
+    display: flex;
+    justify-content: center;
+    padding-top:12px ;
+    border-radius: 14px;
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background: linear-gradient(to bottom, #4b4a4a, #0a0101); 
+}
+h1{
+    color: white;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style:italic;
+    
+  font-size: 99px;
+}
+img{
+    display: flex;
+    background: transparent;
+    width:47vh;
+    position: sticky;
+}
