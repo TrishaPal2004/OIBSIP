@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    width:100%;
+    padding-top: 84px;
+    padding-bottom: 24px;
+    padding-left: 54px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+ h2{
+    padding-top: 84px;
+    padding-bottom: 84px;
+    padding-left: 54px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    color: antiquewhite;
+}
+.heading
+{
+    background: linear-gradient(to bottom, #010101, #363636); 
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    padding-left:20%;
+    padding-right:20%;
+    padding-top:20px;
+    padding-bottom: 30px;
+    align-items:normal;
+    font-size: larger;
+    color:white;
+
+    background: linear-gradient(to bottom, #171717, #595959); 
+    
+}
+div h2{
+    padding-bottom: 42px;
+   font-size:38px;
+}
+div.mid
+{
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    width:100%;
+    height:55vh;
+}
+
+div.mid-left{
+    padding: 10%;
+    padding-right: 29%;
+    font-size: 35px;
+    background: linear-gradient(to bottom, #a3a3a3, #f1f1f1); 
+    
+    
+}
+div.mid-right{
+    font-size: 25px;
+    background: linear-gradient(to bottom, #b8b5b5, #f1f1f1); 
+    
+    
+}
+img{
+    padding-top: 2px;
+    width:42vh;
+    height: 54vh;
+    
+}
+.body p{
+    line-height: 1.8;
+    font-size: 22px;
+}
